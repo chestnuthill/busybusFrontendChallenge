@@ -1,0 +1,139 @@
+.navigation {
+  background-color: grey;
+  float: right;
+  width: 100%;
+  color: white;
+}
+.icons {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.t {
+  margin-top: 20px;
+}
+
+.time {
+  font-size: 15px;
+}
+
+.hamburger {
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+.menu {
+  background-color: #2C98F0;
+  height: 150px;
+}
+.text {
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: white;
+}
+.search {
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  padding-right: 40px;
+  margin-top: 40px;
+  color: white;
+}
+.dots{
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  margin-top: 40px;
+  color: white;
+  padding-right: 40px
+}
+
+.dib {
+  display: inline-block;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.submenu {
+  background-color: #2C98F0;
+  height: 100px;
+  position: relative;
+}
+
+.searchBar {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml10 {
+  margin-left: 1s0px;
+}
+
+.fr {
+  float: right;
+}
+
+.micpadding {
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.subsubmenu{
+background-color: #C4C4C4;
+height: 80px;
+position: relative;
+}
+
+.texta {
+  color: grey;
+}
+
+.eta {
+  margin-left: 0px;
+  margin-right: 100px;
+}
+
+.list {
+  list-style-type: none;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.listsection {
+  width: 85%;
+  margin: 0 auto;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.bottomsearch {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: gray;
+}
+
+.is30 {
+  font-size: 30px;
+  margin-left: 10px;
+}
