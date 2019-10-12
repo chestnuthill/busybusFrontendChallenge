@@ -2,85 +2,141 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
     <title>BusyBus</title>
   </head>
   <body>
-    <div class="navigation">
+    <section class="navigation">
       <i class="fas fa-wifi icons t"></i>
       <i class="fas fa-battery-full icons t"></i>
       <h1 class="icons t time">11:00</h1>
-    </div>
+    </section>
 
-    <div class="menu">
+    <section class="menu">
       <i class="fas fa-bars hamburger"></i>
       <p class="text">BusyBus</p>
       <i class="fas fa-ellipsis-v dots"></i>
       <i class="fas fa-search search"></i>
-    </div>
+    </section>
 
-    <div class="submenu">
+    <section class="submenu">
       <div class="searchBar">
-        <i class="fas fa-bars dib mr10 ml20"></i>
-        <p class="dib mr10 ml10">Stop, Route, Intersection</p>
+        <i class="fas fa-bars dib mr10 ml20 mt10"></i>
+        <p class="dib mr10 ml10 mt10">Stop, Route, Intersection</p>
         <i class="fas fa-microphone dib fr micpadding"></i>
       </div>
-    </div>
+    </section>
 
-    <div class="subsubmenu">
-      <p class="text texta">As of 11:05 am</p>
-      <p class="text texta fr eta">ETA<p>
-    </div>
+    <section class="subsubmenu">
+      <p class="dib text texta">As of 11:05 am</p>
+      <p class="dib text texta mr50 fr">Frequency</p>
 
-    <div class="listsection">
+    </section>
+
+    <section class="listsection">
         <ul class="list">
+
+          <h2 class="mb10 mt10"> Eastbound </h2>
           <li>
-            <p>66</p>
-            <p class="dib">Washington St. Local</p>
-            <p class="dib fr">4 min</p>
+            <p>60</p>
+            <p class="dib">Randolph/Harbor Dr</p>
+
+            <section class="dib fr">
+              <p class="dib">Every 20 minutes</p>
+            </section>
+          </li>
+
+          <li class="mt10">
+            <p>124</p>
+            <p class="dib">Navy Pier</p>
+
+            <section class="dib fr">
+              <p class="dib">Every 10 minutes</p>
+            </section>
             <hr>
           </li>
 
-          <li>
-            <p>1013</p>
-            <p class="dib">State St. Local</p>
-            <p class="dib fr">1 min</p>
+          <h2 class="mb10 mt25"> Northbound </h2>
+          <li class="mt10">
+            <p>151</p>
+            <p class="dib">Devon/Clark</p>
+
+            <section class="dib fr">
+              <p class="dib">Every 16 minutes</p>
+            </section>
             <hr>
           </li>
 
-          <li>
-            <p>421</p>
-            <p class="dib">Park Pl.</p>
-            <p class="dib fr">2 min</p>
+          <h2 class="mb10 mt25"> Southbound </h2>
+          <li class="mt10">
+            <p>J14</p>
+            <p class="dib">103rd/Stony Island</p>
+
+            <section class="dib fr">
+              <p class="dib">Every 15 minutes</p>
+            </section>
+          </li>
+
+          <li class="mt10">
+            <p>124</p>
+            <p class="dib">Navy Pier</p>
+
+            <section class="dib fr">
+              <p class="dib">Every 10 minutes</p>
+            </section>
             <hr>
-            </li>
+          </li>
 
-            <li>
-              <p>33</p>
-              <p class="dib">Washington St. Express</p>
-              <p class="dib fr">1 min</p>
-              <hr>
-              </li>
+          <h2 class="mb10 mt25"> Reroute </h2>
+          <li class="mt10">
+            <p>6x</p>
+            <p class="dib">Jackson Park Express</p>
 
-              <li>
-                <p>924</p>
-                <p class="dib">State St. Express</p>
-                <p class="dib fr">1 min</p>
-                <hr>
-                </li>
+            <section class="dib fr">
+              <p class="dib">N/A</p>
+            </section>
+            <hr>
+          </li>
 
-                <li>
-                  <p>153</p>
-                  <p class="dib">Downtown Local</p>
-                  <p class="dib fr">3 min</p>
-                  <hr>
-                  </li>
+          <h2 class="mb10 mt25"> Out of Service </h2>
+          <li class="mt10">
+            <p>4</p>
+            <p class="dib">Cottage Grove</p>
+
+            <section class="dib fr">
+              <p class="dib">Resumes 12:10am</p>
+            </section>
+          </li>
+
+          <li class="mt10">
+            <p>20</p>
+            <p class="dib">Madison</p>
+
+            <section class="dib fr">
+              <p class="dib">Resumes 12:10am</p>
+            </section>
+          </li>
+
+          <li class="mt10">
+            <p>157</p>
+            <p class="dib">Streeterville/Taylor</p>
+
+            <section class="dib fr">
+              <p class="dib">Resumes 6:00am</p>
+            </section>
+            <hr>
+          </li>
+
         </ul>
 
-    </div>
+    </section>
 
-    <div class="bottomsearch">
+    <section class="bottomsearch">
       <div class="dib">
         <i class="far fa-clock is30"></i>
         <p>Recents</p>
@@ -90,7 +146,7 @@
         <i class="fas fa-map-marker-alt is30"></i>
         <p>Nearby</p>
       </div>
-    </div>
+    </section>
 
 </body>
 

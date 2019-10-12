@@ -1,8 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .navigation {
   background-color: grey;
   float: right;
   width: 100%;
   color: white;
+  padding-bottom: 15px;
 }
 .icons {
   display: inline-block;
@@ -34,7 +39,7 @@
 .text {
   font-size: 20px;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 40px;
   color: white;
 }
@@ -63,10 +68,15 @@
   margin-right: 10px;
 }
 
+.mr50 {
+  margin-right: 50px;
+}
+
 .submenu {
   background-color: #2C98F0;
   height: 100px;
   position: relative;
+  box-shadow: inset 1px 5px 9px -5px;
 }
 
 .searchBar {
@@ -76,6 +86,8 @@
   top: 50%;
   left: 25%;
   transform: translateY(-50%);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -93,13 +105,14 @@
 
 .micpadding {
   padding-right: 10px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .subsubmenu{
 background-color: #C4C4C4;
 height: 80px;
 position: relative;
+width: 100%;
 }
 
 .texta {
@@ -108,7 +121,7 @@ position: relative;
 
 .eta {
   margin-left: 0px;
-  margin-right: 100px;
+  margin-right: 10px;
 }
 
 .list {
@@ -118,7 +131,7 @@ position: relative;
 }
 
 .listsection {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -136,4 +149,16 @@ li {
 .is30 {
   font-size: 30px;
   margin-left: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
 }
