@@ -36,13 +36,7 @@ body {
   background-color: #2C98F0;
   height: 150px;
 }
-.text {
-  font-size: 20px;
-  display: inline-block;
-  margin-left: 50px;
-  margin-top: 40px;
-  color: white;
-}
+
 .search {
   font-size: 20px;
   display: inline-block;
@@ -68,9 +62,7 @@ body {
   margin-right: 10px;
 }
 
-.mr50 {
-  margin-right: 50px;
-}
+
 
 .submenu {
   background-color: #2C98F0;
@@ -79,17 +71,56 @@ body {
   box-shadow: inset 1px 5px 9px -5px;
 }
 
-.searchBar {
-  position: absolute;
-  background-color: white;
-  width: 50%;
-  top: 50%;
-  left: 25%;
-  transform: translateY(-50%);
-  padding-top: 10px;
-  padding-bottom: 10px;
+@media (max-width: 500px) {
+  .searchBar {
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    display: block;
+    padding-left: 10px;
+  }
+
+  .mr50 {
+    margin-right: 10px;
+  }
+
+  .text {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: white;
+  }
 }
 
+@media (min-width: 501px) {
+  .searchBar {
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    display: block;
+    padding-left: 10px;
+  }
+
+  .mr50 {
+    margin-right: 30px;
+  }
+
+  .text {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: white;
+  }
+}
+
+
+.pt {
+  padding-top: 30px;
+}
 
 .ml20 {
   margin-left: 20px;
